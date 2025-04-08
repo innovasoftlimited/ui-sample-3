@@ -66,6 +66,10 @@ html {
 }
 
 /* margins between sections */
+#improvementSection{
+    margin-top: 15rem;
+}
+
 #compassionateSection{
     margin-top: 15rem;
 }
