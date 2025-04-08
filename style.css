@@ -1,7 +1,18 @@
+/* smooth scrolling styles */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 3rem;
 }
+
+#homeSection,
+#serviceSection,
+#improvementSection,
+#faqSection,
+#consultantSection {
+  scroll-margin-top: 3rem;
+}
+
+/* font styles */
 .font-inter {
   font-family: "Inter", sans-serif;
 }
@@ -14,6 +25,14 @@ html {
 
 .bg-custom-dark-blue {
   background-color: #0f1150 !important;
+}
+
+.bg-custom-very-light-gray {
+  background-color: #f9f9f9 !important;
+}
+
+.bg-custom-light-gray {
+  background-color: #f2f2f2 !important;
 }
 
 .text-custom-dark-blue {
@@ -31,4 +50,17 @@ html {
 
 .logo {
   width: 35px;
+}
+.logo-2 {
+  width: 35px;
+}
+
+/* margins between sections */
+
+#footerSection {
+  margin-top: 10rem;
+}
+
+#footerSection2 {
+  margin-top: 10rem;
 }

@@ -35,7 +35,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body class="font-inter">
     <!-- navbar section-->
     <header class="bg-custom-dark-blue">
       <nav class="navbar navbar-expand-lg">
@@ -51,19 +51,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Services</a>
+                <a class="nav-link text-white" href="#serviceSection">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">News</a>
+                <a class="nav-link text-white" href="#improvementSection">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">About</a>
+                <a class="nav-link text-white" href="#faqSection">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
+                <a class="nav-link text-white" href="#homeSection">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Appoinment</a>
+                <a class="nav-link text-white" href="#consultantSection">Appoinment</a>
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@
 
     <main>
       <!-- banner section -->
-      <section class="my-5">
+      <section class="my-5" id="homeSection">
         <div class="container">
           <div class="row d-flex justify-content-between banner">
             <div class="col-6" id="banner-text">
@@ -150,7 +150,7 @@
       </section>
 
       <!-- service section -->
-      <section>
+      <section id="serviceSection">
         <div class="container">
           <p>we are dedicated to making a positive impact on individuals' lives through compassionate care and innovative medical solutions. Our personalized treatment plans, delivered by a team of caring professionals.</p>
           <div class="row">
@@ -215,7 +215,7 @@
       </section>
 
       <!-- improvement section -->
-      <section>
+      <section id="improvementSection">
         <div class="container my-5 py-5">
           <div class="row">
             <div class="col">
@@ -246,7 +246,7 @@
       </section>
 
       <!-- consultant section -->
-      <section>
+      <section id="consultantSection">
         <div class="container">
           <h2>Meet Our Team and Senior Consultant</h2>
           <p>our success is driven by the dedication and expertise of our exceptional team. Each member brings a wealth of knowledge, passion, and commitment to providing the highest standard of care and service.</p>
@@ -323,7 +323,7 @@
       </section>
 
       <!-- faq section -->
-      <section>
+      <section id="faqSection">
         <div class="container">
           <div class="row">
             <div class="col-6">
@@ -405,6 +405,46 @@
       </section>
     </main>
 
-    <footer></footer>
+    <!-- footer section -->
+    <footer>
+      <section id="footerSection" class="bg-custom-very-light-gray mb-4">
+        <div class="container d-flex justify-content-between align-items-center py-4">
+          <div class="d-flex flex-column gap-2">
+            <div class="mt-5 d-flex justify-content-between align-items-center gap-2">
+              <img src="./assets/company-logo-2.png" alt="" class="img-fluid logo-2"/>
+              <a class="fs-3 fw-semibold lh-lg font-koulen text-custom-dark-blue text-decoration-none mt-1" href="#">NADIA HEALTH</a>
+            </div>
+            <div class="d-flex gap-5 align-items-start">
+              <a href="https://facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook text-secondary"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram text-secondary"></i>
+              </a>
+              <a href="https://www.snapchat.com/" target="_blank">
+                <i class="fa-brands fa-snapchat text-secondary"></i>
+              </a>
+            </div>
+          </div>
+          <div class="d-flex gap-4 mt-2">
+            <a href="#serviceSection" class="fs-6 fw-normal lh-1 text-black text-decoration-none">Services</a>
+            <a href="#improvementSection" class="fs-6 fw-normal lh-1 text-black text-decoration-none">News</a>
+            <a href="#faqSection" class="fs-6 fw-normal lh-1 text-black text-decoration-none">About</a>
+            <a href="#consultantSection" class="fs-6 fw-normal lh-1 text-black text-decoration-none">Resources</a>
+            <a href="#homeSection" class="fs-6 fw-normal lh-1 text-black text-decoration-none">Company</a>
+          </div>
+        </div>
+        <div class="bg-custom-light-gray" id="footerSection2">
+          <div class="container d-flex justify-content-between align-items-center py-4">
+            <div class="fs-6 fw-lighter lh-1 text-black">&copy; Nadia Health 2024</div>
+            <div class="d-flex justify-content-between gap-4 align-items-center">
+              <a href="#" class="fs-6 fw-lighter lh-1 text-black text-decoration-none">Terms of use</a>
+              <i class="fa-solid fa-circle text-success"></i>
+              <a href="#" class="fs-6 fw-lighter lh-1 text-black text-decoration-none">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
