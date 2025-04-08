@@ -48,6 +48,7 @@ html {
   width: 35%;
 }
 
+
 .logo {
   width: 35px;
 }
@@ -56,6 +57,9 @@ html {
 }
 
 /* margins between sections */
+#faqSection {
+  margin-top: 10rem;
+}
 
 #footerSection {
   margin-top: 10rem;
