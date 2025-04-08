@@ -9,7 +9,8 @@ html {
 #improvementSection,
 #faqSection,
 #consultantSection,
-#insuranceSection {
+#insuranceSection,
+#compassionateSection {
   scroll-margin-top: 3rem;
 }
 
@@ -59,8 +60,16 @@ html {
 .insurance-image{
     width: 50px;
 }
+.compassionate-image{
+    width: 30%;
+    height: 100%;
+}
 
 /* margins between sections */
+#compassionateSection{
+    margin-top: 15rem;
+}
+
 #consultantSection{
     margin-top: 15rem;
     padding-top: 10rem;
