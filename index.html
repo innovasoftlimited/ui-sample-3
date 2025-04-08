@@ -32,33 +32,218 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" defer></script>
 
-    <style>
-      html {
-        scroll-behavior: smooth;
-        scroll-padding-top: 3rem;
-      }
-      .font-inter {
-        font-family: "Inter", sans-serif;
-      }
-      .font-koulen {
-        font-family: "Koulen", sans-serif;
-      }
-      .font-bebas {
-        font-family: "Bebas Neue", sans-serif;
-      }
-    </style>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body class="container">
-    <header>
-      <nav></nav>
-      <section>
-        <h1 class="bg-danger">This is a head</h1>
-      </section>
+  <body>
+    <!-- navbar section-->
+    <header class="bg-custom-dark-blue">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="d-flex align-items-center gap-2">
+            <img src="./assets/favicon.png" alt="" class="logo" />
+            <a class="navbar-brand text-white" href="#">NADIA HEALTH</a>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Appoinment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+
     <main>
-      <section></section>
-      <section></section>
-      <section></section>
+      <!-- banner section -->
+      <section class="my-5">
+        <div class="container">
+          <div class="row d-flex justify-content-between banner">
+            <div class="col-6" id="banner-text">
+              <h1 class="text-custom-dark-blue">Empowering Health, Enriching Lives at to KayMax Hospital</h1>
+              <p class="mt-2">We understand that every heartbeat, every breath, and every moment matters. As a beacon of health and healing in England, we are dedicated to providing exceptional medical care with a human touch.</p>
+              <div>
+                <button class="btn btn-success mt-4">Learn more</button>
+              </div>
+            </div>
+            <div class="col-6 d-flex flex-column gap-3">
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assets/banner-image-1.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4">
+                  <img src="./assets/banner-image-2.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4">
+                  <img src="./assets/banner-image-3.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assets/banner-image-4.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4">
+                  <img src="./assets/banner-image-5.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4">
+                  <img src="./assets/banner-image-6.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <img src="./assets/banner-image-7.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4">
+                  <img src="./assets/banner-image-8.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-4 border border-4 rounded-circle border-success">
+                  <img src="./assets/banner-image-9.png" alt="" class="img-fluid p-4" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- partner section -->
+      <section class="my-5 py-5">
+        <div class="container">
+          <h2 class="text-center">Our health partners</h2>
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col">
+              <img src="./assets/partner-logo-1.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col">
+              <img src="./assets/partner-logo-2.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col">
+              <img src="./assets/partner-logo-3.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col">
+              <img src="./assets/partner-logo-4.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col">
+              <img src="./assets/partner-logo-5.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col">
+              <img src="./assets/partner-logo-6.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- service section -->
+      <section>
+        <div class="container">
+          <p>we are dedicated to making a positive impact on individuals' lives through compassionate care and innovative medical solutions. Our personalized treatment plans, delivered by a team of caring professionals.</p>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/service-logo-1.png" alt="" class="img-fluid"/>
+                  <h5 class="card-title">General care</h5>
+                  <p class="card-text">Our dedicated healthcare professionals focus on your overall well-being, providing routine check-ups and preventive measures.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/service-logo-2.png" alt="" class="img-fluid"/>
+                  <h5 class="card-title">Laboratory test</h5>
+                  <p class="card-text">From routine screenings to specialized diagnostics, trust us for reliable results that inform your healthcare decisions.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/service-logo-3.png" alt="" class="img-fluid"/>
+                  <h5 class="card-title">Medication</h5>
+                  <p class="card-text">Our healthcare experts prescribe medications with your specific needs in mind. Receive personalized and effective.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/service-logo-4.png" alt="" class="img-fluid"/>
+                  <h5 class="card-title">Emergency</h5>
+                  <p class="card-text">Ready 24/7 to provide swift and compassionate assistance during critical moments. Your well-being is our immediate.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/service-logo-5.png" alt="" class="img-fluid"/>
+                  <h5 class="card-title">Appointment</h5>
+                  <p class="card-text">Ensuring you receive the attention and guidance you need. Your health is our priority, and we're here to make your healthcare.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./assets/service-logo-6.png" alt="" class="img-fluid"/>
+                  <h5 class="card-title">Infection control</h5>
+                  <p class="card-text">We adhere to rigorous infection control measures to create a secure environment for your healthcare.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- improvement section -->
+      <section>
+        <div class="container my-5 py-5">
+          <div class="row">
+            <div class="col">
+              <p>We serve patients from all around the world.</p>
+              <p>Improve the quality of your life through our health care</p>
+            </div>
+            <div class="col">
+              <p>
+                From preventative care and routine check-ups to specialized treatments and advanced medical technologies, our dedicated team of professionals is committed to providing the highest standard of care. We prioritize your health and strive
+                to create a supportive and nurturing environment where you can thrive.
+              </p>
+              <button>Learn more</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <img src="./assets/improvement-image-1.png" alt="" class="img-fluid"/>
+            </div>
+            <div class="col-4">
+              <img src="./assets/improvement-image-2.png" alt="" class="img-fluid"/>
+              <p>
+                We believe that quality healthcare is the foundation of a fulfilling life. Our comprehensive healthcare services are designed to improve your overall well-being, offering personalized care and innovative solutions to meet your unique
+                needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
