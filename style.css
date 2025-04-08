@@ -8,7 +8,8 @@ html {
 #serviceSection,
 #improvementSection,
 #faqSection,
-#consultantSection {
+#consultantSection,
+#insuranceSection {
   scroll-margin-top: 3rem;
 }
 
@@ -55,14 +56,21 @@ html {
 .logo-2 {
   width: 35px;
 }
+.insurance-image{
+    width: 50px;
+}
 
 /* margins between sections */
+#insuranceSection{
+    margin-top: 15rem;
+}
+
 #faqSection {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 #footerSection {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 #footerSection2 {
