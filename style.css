@@ -61,6 +61,12 @@ html {
 }
 
 /* margins between sections */
+#consultantSection{
+    margin-top: 15rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 #insuranceSection{
     margin-top: 15rem;
 }
