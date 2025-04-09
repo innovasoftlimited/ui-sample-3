@@ -29,6 +29,10 @@ html {
   background-color: #0f1150 !important;
 }
 
+.bg-custom-navy-blue {
+  background-color: #36398E !important;
+}
+
 .bg-custom-very-light-gray {
   background-color: #f9f9f9 !important;
 }
@@ -41,10 +45,10 @@ html {
   color: #36398e !important;
 }
 
-.banner {
+/* .banner {
   background: url(./assets/background-rows.png) no-repeat center center/cover;
   margin-top: 10rem;
-}
+} */
 
 #banner-text {
   width: 35%;
@@ -64,8 +68,20 @@ html {
     width: 30%;
     height: 100%;
 }
+.service-logo{
+    width: 50px;
+}
 
 /* margins between sections */
+#partnerSection{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#serviceSection{
+    padding-bottom: 10rem;
+}
+
 #improvementSection{
     margin-top: 15rem;
 }
