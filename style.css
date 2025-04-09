@@ -10,7 +10,8 @@ html {
 #faqSection,
 #consultantSection,
 #insuranceSection,
-#compassionateSection {
+#compassionateSection,
+#partnerSection {
   scroll-margin-top: 3rem;
 }
 
@@ -45,16 +46,6 @@ html {
   color: #36398e !important;
 }
 
-/* .banner {
-  background: url(./assets/background-rows.png) no-repeat center center/cover;
-  margin-top: 10rem;
-} */
-
-#banner-text {
-  width: 35%;
-}
-
-
 .logo {
   width: 35px;
 }
@@ -71,8 +62,16 @@ html {
 .service-logo{
     width: 50px;
 }
+.banner-image{
+    /* height: 100%; */
+}
 
 /* margins between sections */
+#homeSection{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
 #partnerSection{
     padding-top: 10rem;
     padding-bottom: 10rem;
